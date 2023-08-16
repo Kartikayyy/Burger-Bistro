@@ -1,0 +1,357 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    color: #fff;
+    background-color: #61122f;
+    font-family: 'Oxygen', sans-serif;
+    overflow-x: hidden;
+}
+
+/* header */
+#header-nav {
+    background-color: #f6b319;
+    border: 0;
+    border-radius: 0;
+}
+
+#logo-img {
+    background: url("/CourseraWebsite/images/logo.jpg") no-repeat;
+    width: 150px;
+    height: 150px;
+    margin: 10px 15px 10px 0;
+}
+
+#kosher {
+    width: 40px;
+}
+
+.navbar-brand h1 {
+    /*For china bistro heading*/
+    font-family: 'Lora', serif;
+    color: #557c3e;
+    font-weight: bolder;
+    line-height: 0.75;
+    font-size: 1.78em;
+    text-shadow: 2px 2px 2px #222;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.navbar-brand a:hover,
+.navbar-brand a:focus {
+    text-decoration: none;
+}
+
+.navbar-brand p {
+    color: #000;
+    font-size: 0.9em;
+    font-weight: bold;
+    vertical-align: middle;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.collapse {
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+#navbarNav {
+    margin-top: 10px;
+}
+
+#navbarNav a {
+    color: #951C49;
+    text-align: center;
+}
+
+#navbarNav a:hover {
+    background: #E7E7E7;
+}
+
+#navbarNav a i {
+    font-size: 1.6em;
+}
+
+#phone {
+    margin-top: 5px;
+    vertical-align: middle;
+}
+
+#phone a {
+    /* Phone number */
+    text-align: right;
+    padding-bottom: 0;
+}
+
+#phone div {
+    /* We Deliver */
+    color: green;
+    text-align: right;
+    padding-right: 15px;
+}
+
+.no-wrap {
+    white-space: nowrap;
+    font-size: 30px;
+}
+
+
+/* END HEADER */
+button.navbar-toggler {
+    border: 4px solid #951C49;
+    clear: both;
+    margin: 2px;
+}
+
+/* Call Button When Shrunk */
+#call-button {
+    font-size: 25px;
+    color: #61122f;
+    padding: 10px;
+    background-color: #f6b319;
+    border: 3px solid white;
+    margin-top: 20px;
+
+}
+
+#call-button a {
+    font-size: 30px;
+    padding: 10px;
+    color: #61122f;
+    text-decoration: none;
+}
+
+#xs-deliver {
+    margin-top: 5px;
+    font-size: 20px;
+
+}
+
+.jumbotron img {
+    height: 670px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border: 2px solid white;
+}
+
+#menu-tile,
+#specials-tile,
+#map-tile {
+    overflow: hidden;
+    border: 2px solid white;
+    height: 250px;
+    position: relative;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#burger-tile,
+#drinks-tile,
+#wraps-tile,
+#fries-tile {
+    overflow: hidden;
+    border: 3px solid white;
+    height: 250px;
+    position: relative;
+    margin: 5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#burger-tile {
+    background: url("https://www.thecookierookie.com/wp-content/uploads/2023/04/featured-stovetop-burgers-recipe.jpg");
+    background-size: 100%;
+    background-position: center;
+}
+
+#wraps-tile {
+    background: url("https://images-gmi-pmc.edge-generalmills.com/2937ced7-648f-4ddb-a7e4-ccdaafb7b9bf.jpg");
+    background-size: 100%;
+    background-position: center;
+}
+
+#fries-tile {
+    background: url("https://aubreyskitchen.com/wp-content/uploads/2021/01/frozen-french-fries-in-air-fryer.jpg");
+    background-size: 100%;
+    background-position: center;
+}
+
+#drinks-tile {
+    background: url("https://i0.wp.com/www.homestases.com/wp-content/uploads/2019/09/softdrink.jpg?fit=400%2C400&ssl=1");
+    background-size: 100%;
+    background-position: center;
+}
+
+section.row {
+    margin-top: 20px;
+}
+
+#menu-tile:hover,
+#specials-tile:hover,
+#map-tile:hover {
+    box-shadow: 0 2px 5px 2px #cccccc;
+}
+
+#menu-tile {
+    background: url("https://www.thecookierookie.com/wp-content/uploads/2023/04/featured-stovetop-burgers-recipe.jpg") no-repeat;
+    background-position: center;
+    background-size: 100%;
+
+}
+
+#specials-tile {
+    background: url("https://img.delicious.com.au/9d27SNl7/del/2022/10/p89-salt-and-vinegar-crumbed-chicken-burger-176377-1.png") no-repeat;
+    background-position: center;
+    background-size: 100%;
+
+}
+
+.md4 span,
+.md3 span {
+    position: absolute;
+    color: white;
+    text-transform: uppercase;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    background-color: #000;
+    text-align: center;
+    font-size: 1.6em;
+    opacity: 0.8;
+}
+
+@media (min-width: 1200px) {
+
+    .md4,
+    .sm4 {
+
+        float: left;
+        width: 33.33%;
+        /*specifieng the width of block when screen shrinked*/
+    }
+
+    .md3 {
+        float: left;
+        width: 23%;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+
+    #navbarNav a,
+    #navbar div {
+        font-size: 0.85em;
+    }
+
+    .jumbotron img {
+        height: 550px;
+    }
+
+    .sm6 {
+
+        float: left;
+        width: 50%;
+        /*specifieng the width of block when screen shrinked*/
+    }
+
+    .sm4 {
+        /*Footer boxes*/
+        float: left;
+        width: 33.33%;
+
+    }
+
+    .md3 {
+        float: left;
+        width: 47%;
+    }
+}
+
+@media (max-width: 767px) {
+    .navbar-brand {
+        height: 100px;
+
+    }
+
+    .navbar-brand h1 {
+        font-size: 20px;
+    }
+
+    .navbar-brand p {
+        font-size: 15px;
+    }
+
+    .navbar-brand img {
+        width: 19px;
+    }
+
+    .xs12 {
+        margin-top: 20px;
+        float: left;
+        width: 100%;
+    }
+
+    .sm4 {
+        /*Footer boxes*/
+        text-align: center;
+    }
+}
+
+.panel-footer {
+    background-color: #222;
+    opacity: 0.8;
+    margin-top: 30px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    color: white;
+}
+
+.panel-footer .row {
+    margin-bottom: 40px;
+    ;
+}
+
+.panel-footer .row span {
+    font-size: 1.3em;
+    font-weight: bolder;
+}
+
+#hours,
+#address {
+
+    line-height: 1.6;
+}
+
+#testimonial p {
+    line-height: 1.7;
+    margin-top: 10px;
+}
+
+#about {
+    /*About page*/
+    margin-top: 40px;
+
+}
+
+#menu-categories-title {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 40px;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+#awards-title,
+#about-title {
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 30px;
+    
+}

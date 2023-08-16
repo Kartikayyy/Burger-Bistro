@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--For mobile-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!--For int explorer-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap"
+        rel="stylesheet">
+    <!-- Glyph Icons imported from Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <!-- JQUERY Plugins -->
+    <script src="js/code.jquery.com_jquery-3.7.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+
+    <title>Kartikay's Burger Bistro</title>
+</head>
+
+<body>
+    <header>
+        <nav id="header-nav" class="navbar navbar-default navbar-expand-lg">
+            <div class="container">
+                <div class="navbar-header">
+                    <a href="Bistro.html" class="float-start d-none d-md-block"> <!--Visible on medium width-->
+                        <div id="logo-img" alt="Logo Image"></div> <!--Gone in small width-->
+                    </a>
+                    <div class="navbar-brand">
+                        <a href="Bistro.html">
+                            <h1>Kartikay's Burger Bistro</h1>
+                        </a>
+                        <p>
+                            <img id="kosher"
+                                src="https://5.imimg.com/data5/IC/FD/PG/SELLER-73378050/kosher-certification-services.jpg">
+                            <span>Kosher Certified</span>
+                        </p>
+                    </div>
+                </div>
+                <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="nav navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="Menu-categories.html"> <i class="bi bi-menu-app-fill"></i>
+                                <br class="d-none d-lg-block">
+                                Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="About.html"><i class="bi bi-info-circle-fill"></i>
+                                <br class="d-none d-lg-block">
+                                About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Awards.html"><i class="bi bi-award-fill"></i>
+                                <br class="d-none d-lg-block">
+                                Awards</a>
+                        </li>
+                        <li class="nav-item d-none d-lg-block" id="phone">
+                            <a class="nav-link no-wrap" href="tel:9911568975">991-156-8975</a>
+                            <div>
+                                *We Deliver*
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Call button when screen shrunk -->
+    <div id="call-button" class="d-block d-lg-none text-center">
+        <a class="button" href="tel:9911568975"><i class="bi bi-telephone-fill"></i> 991-156-8975</a>
+    </div>
+    <div id="xs-deliver" class="d-block d-lg-none text-center">
+        * We Deliver *
+    </div>
+
+    <!-- Main Content-->
+    <div id="main-content about" class="container">
+        <h2 class="about-title text-center" id="about-title">
+            This Website is made as a Front End project by KARTIKAY GUPTA.<br>
+            Thanks for Visiting.<br>
+        </h2>
+    </div><!--End of Main Content-->
+
+    <footer class="panel-footer">
+        <div class="container">
+            <div class="row">
+                <section id="hours" class="sm4">
+                    <span>Hours:</span><br>
+                    Mon-Fri: 9:00am - 10:00pm<br>
+                    Sat-Sun: 9:00am - 11.30pm<br>
+                    <hr class="d-block d-md-none">
+                </section>
+                <section id="Address" class="sm4">
+                    <span>Address:</span><br>
+                    Plot No 2, B Block, Community Center, Block BD, <br>
+                    Shalimar Bagh, New Delhi, Delhi<br>
+                    110088, India<br>
+                    <hr class="d-block d-md-none">
+                </section>
+                <section id="testimonial" class="sm4">
+                    <p><i>
+                            "The burger club has come as surprise among all majors like KFC or McD. This outlet has nice
+                            ambience and excellent air-conditioning."</i>
+                    </p>
+                    <p><i>
+                            "Amazing food and excellent service from the staff. Nice ambience."
+                        </i></p>
+                </section>
+            </div>
+            <div class="text-center">&copy; Copyright Kartikay Gupta's Burger Bistro 2023</div>
+        </div>
+    </footer>
+</body>
+
+</html>
